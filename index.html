@@ -12,14 +12,13 @@
       background-image: url('https://images.unsplash.com/photo-1627856013091-fed6e4e30025');
       background-size: cover;
       background-position: center;
-      background-attachment: fixed;
-      overflow-y: auto;
+      background-repeat: no-repeat;
     }
 
     .overlay {
-      background: rgba(0, 0, 0, 0.75);
+      background: rgba(0, 0, 0, 0.80);
+      padding: 60px 20px;
       min-height: 100vh;
-      padding: 60px 20px 80px 20px;
     }
 
     h1 {
@@ -34,10 +33,10 @@
       margin-bottom: 40px;
     }
 
-    a {
+    .btn {
       display: block;
       margin: 15px auto;
-      width: 340px;
+      width: 360px;
       padding: 14px;
       background: #2b2b2b;
       color: #55ff55;
@@ -48,7 +47,7 @@
       transition: 0.3s;
     }
 
-    a:hover {
+    .btn:hover {
       background: #55ff55;
       color: black;
       transform: scale(1.05);
@@ -61,12 +60,12 @@
     <h1>CraftFPS</h1>
     <p>Boost your Minecraft FPS. Find the best PvP mods, shaders, and servers.</p>
 
-    <a href="fps.html">Minecraft FPS Settings</a>
-    <a href="pvp.html">PvP Mods for Fabric</a>
-    <a href="servers.html">Top Cracked Servers</a>
-    <a href="shaders.html">Shaders for Low-End PC</a>
-    <a href="mouse.html">Mouse Settings for PvP</a>
-    <a href="prosetup.html">Pro Players Setup</a>
+    <a class="btn" href="fps.html">Minecraft FPS Settings</a>
+    <a class="btn" href="pvp.html">PvP Mods for Fabric</a>
+    <a class="btn" href="servers.html">Top Cracked Servers</a>
+    <a class="btn" href="shaders.html">Shaders for Low-End PC</a>
+    <a class="btn" href="mouse.html">Mouse Settings for PvP</a>
+    <a class="btn" href="prosetup.html">Pro Players Setup</a>
 
   </div>
 </body>
