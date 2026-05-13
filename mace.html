@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mace Practice</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#111;
+  color:white;
+  padding:40px;
+  text-align:center;
+}
+
+h1{
+  color:#55ff55;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+  gap:20px;
+  max-width:600px;
+  margin:auto;
+}
+
+.btn{
+  padding:20px;
+  background:#2b2b2b;
+  border:2px solid #55ff55;
+  color:#55ff55;
+  text-decoration:none;
+  border-radius:10px;
+  font-size:18px;
+  transition:0.3s;
+  cursor:pointer;
+}
+
+.btn:hover{
+  background:#55ff55;
+  color:black;
+  transform:scale(1.05);
+}
+
+.box{
+  margin-top:30px;
+  background:#1b1b1b;
+  border:2px solid #55ff55;
+  padding:20px;
+  border-radius:10px;
+  max-width:700px;
+  margin-left:auto;
+  margin-right:auto;
+  display:none;
+  text-align:left;
+}
+
+.back{
+  display:inline-block;
+  margin-bottom:20px;
+  background:#55ff55;
+  color:black;
+  padding:8px 12px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<a class="back" href="practice.html">⬅ Back</a>
+
+<h1>🔨 Mace Practice</h1>
+
+<div class="grid">
+
+  <div class="btn" onclick="show('normal')">⚒️ Normal Macing</div>
+  <div class="btn" onclick="show('elytra')">🪽 Elytra Macing</div>
+
+</div>
+
+<div id="normal" class="box">
+
+<h2>⚒️ Normal Macing Loadout</h2>
+<ul>
+  <li>Mace → Unbreaking III, Mending</li>
+  <li>Potion → Leaping</li>
+</ul>
+
+</div>
+
+<div id="elytra" class="box">
+
+<h2>🪽 Elytra Macing Loadout</h2>
+
+<ul>
+  <li>2 Totems</li>
+  <li>1 Elytra</li>
+  <li>2 stacks Fireworks</li>
+  <li>1 Mace</li>
+</ul>
+
+<p>
+<a href="https://www.youtube.com/watch?v=SpnSfkY8MAM" target="_blank" style="color:#55ff55;">
+Watch Elytra Mace Tutorial
+</a>
+</p>
+
+</div>
+
+<script>
+function show(id){
+  document.getElementById("normal").style.display="none";
+  document.getElementById("elytra").style.display="none";
+  document.getElementById(id).style.display="block";
+}
+</script>
+
+</body>
+</html>
