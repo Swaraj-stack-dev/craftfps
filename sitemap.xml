@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://swaraj-stack-dev.github.io/craftfps/</loc>
   </url>
+
+  <url>
+    <loc>https://swaraj-stack-dev.github.io/craftfps/fps.html</loc>
+  </url>
+
+  <url>
+    <loc>https://swaraj-stack-dev.github.io/craftfps/pvp.html</loc>
+  </url>
+
+  <url>
+    <loc>https://swaraj-stack-dev.github.io/craftfps/servers.html</loc>
+  </url>
+
+  <url>
+    <loc>https://swaraj-stack-dev.github.io/craftfps/shaders.html</loc>
+  </url>
+
+  <url>
+    <loc>https://swaraj-stack-dev.github.io/craftfps/mouse.html</loc>
+  </url>
+
+  <url>
+    <loc>https://swaraj-stack-dev.github.io/craftfps/prosetup.html</loc>
+  </url>
+
 </urlset>
